@@ -12,7 +12,7 @@
     tools:context="com.example.portatil.p01.ActivitatPrincipal">
 
     <Button
-        android:text="Button"
+        android:text="Seguent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
@@ -83,7 +83,7 @@
         android:layout_alignParentEnd="true" />
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="Validar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText3"
@@ -93,11 +93,12 @@
         android:id="@+id/checkBox" />
 
     <TextView
-        android:text="TextView"
+        android:text="Vols publicar les dades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/checkBox"
+        android:layout_alignTop="@+id/checkBox"
         android:layout_toLeftOf="@+id/checkBox"
         android:layout_toStartOf="@+id/checkBox"
-        android:id="@+id/textView9" />
+        android:id="@+id/textView4" />
+
 </RelativeLayout>
